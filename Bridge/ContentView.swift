@@ -152,9 +152,24 @@ struct ContentView: View {
                 Spacer()
                 HStack {
                     TextField("Type to speak", text: $inputText)
-                        .glassyTextFieldStyle()                    .padding()
+                        .glassyTextFieldStyle()
+                        .padding()
+                        .overlay(
+                            Button(action: {
+                                inputText = ""
+                            }) {
+                                Image(systemName: "xmark.circle.fill")
+                                    .foregroundColor(.gray)
+                                    .opacity(inputText.isEmpty ? 0 : 1)
+                            }
+                            .padding(.trailing, 8),
+                            alignment: .trailing
+                        )
                     
-                    Button(action: { speechManager.speakText(inputText, voice: selectedVoice) }) {
+                    Button(action: {
+                        speechManager.speakText(inputText, voice: selectedVoice)
+                        inputText = "" // Clear the text field after speaking
+                    }) {
                         Text("Speak")
                     }
                     .buttonStyle(CustomizableButtonStyle(style: .glassy, labelColor: .accentColor))
