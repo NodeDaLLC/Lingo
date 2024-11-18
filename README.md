@@ -1,5 +1,14 @@
 Open Source Licensing Agreement
 
+Modification of This Document
+If any changes are made to this document without the express written consent of NodeDa, LLC, such changes are considered unauthorized and void. Unauthorized modifications do not alter the terms and conditions of this agreement or the rights and obligations of NodeDa, LLC.
+
+Any attempt to distribute this document with unauthorized changes will be regarded as a breach of NodeDa, LLC's intellectual property rights and may result in legal action.
+
+Latest Copy of this Document can be found at https://NodeDa.com/opensource.md
+
+
+
 NodeDa Lingo Licensing Agreement
 NodeDa Lingo is made available under the following terms and conditions:
 
