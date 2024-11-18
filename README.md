@@ -5,9 +5,7 @@ If any changes are made to this document without the express written consent of 
 
 Any attempt to distribute this document with unauthorized changes will be regarded as a breach of NodeDa, LLC's intellectual property rights and may result in legal action.
 
-Latest Copy of this Document can be found at https://NodeDa.com/opensource.md
-
-
+Latest Copy of this Document can be found at https://NodeDa.com/lingo/opensource.md
 
 NodeDa Lingo Licensing Agreement
 NodeDa Lingo is made available under the following terms and conditions:
